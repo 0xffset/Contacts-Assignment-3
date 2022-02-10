@@ -1,0 +1,50 @@
+* {
+    box-sizing: boder-box;
+     }
+#search {
+    background-position: 10px 10px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+#TableContact {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+.form-inline {
+    align-items: center;
+    text-align: center;
+}
+.form-inline label {
+    margin: 5px 10px 5px 0;
+}
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.form-inline button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+}
+
+
+#TableContact th, #TableContact td {
+    text-aling: left;
+    padding: 12px;
+}
+
+#TableContact tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#TableContact tr.header, #TableContact tr:hover {
+    background-color: #f1f1f1;
+}
