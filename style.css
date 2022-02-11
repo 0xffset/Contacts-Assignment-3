@@ -1,19 +1,18 @@
 * {
     box-sizing: boder-box;
      }
-#search {
-    background-position: 10px 10px;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
+h2 {
+    text-align:center;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 #TableContact {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
     border: 1px solid #ddd;
     font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .form-inline {
     align-items: center;

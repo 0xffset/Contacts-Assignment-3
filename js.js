@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
     loadFromSourceData();
 })
 document.getElementById("form-contact").addEventListener("submit", function(e){
-        e.preventDefault();
-       var firstName = document.getElementById("firstname").value,
+    e.preventDefault();   
+    var firstName = document.getElementById("firstname").value,
             lastName = document.getElementById("lastname").value,
             phone = document.getElementById("phone").value;
 
@@ -45,10 +45,12 @@ document.getElementById("form-contact").addEventListener("submit", function(e){
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
             }
-        }).then(res => console.log(res))
+        }).then(res => alert("The data was save successfully!"))
         .catch(error => console.error('Error:', error))
     } catch(e) {
         console.log("Error. A Error has been occur");
     }
-
+    document.getElementById("firstname").value = "";
+    document.getElementById("lastname").value = "";
+    document.getElementById("phone").value = "";
 });
